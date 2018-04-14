@@ -4,8 +4,6 @@ json equality check inspired by [deepequals](https://github.com/epoberezkin/fast
 
 [installaion](https://www.osc.edu/resources/getting_started/howto/howto_install_your_own_python_modules)
 
-    import jsonequals
-    import json
 
 # usage         
     

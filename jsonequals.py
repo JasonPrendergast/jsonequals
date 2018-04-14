@@ -1,6 +1,3 @@
-#import regex
-import datetime
-
 class jsonequals():
     def __init__(self,testjson):
         self.testjson=testjson
@@ -16,6 +13,8 @@ class jsonequals():
                     return False
             return True
         return False
+
+
 
 
 

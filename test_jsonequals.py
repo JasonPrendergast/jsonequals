@@ -15,9 +15,9 @@ def tester(testerjson):
     testy = test_jsonequals(testjson)
     testy = testy.test_equals()
     if str(testy) == testjson['equal']:
-        print('pass test equal_date_objects')
+        print('pass test')
     else:
-        print('fail test equal_date_objects')
+        print('fail test')
 
 if __name__ == "__main__":
     testjson = json.loads(
@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
     testjson = json.loads(
         '{"description": "equal string",'
-        ' "value1": "/foo/", '
+        '"value1": "/foo/", '
         '"value2": "/foo/",'
         '"equal": "True"}')
     tester(testjson)
